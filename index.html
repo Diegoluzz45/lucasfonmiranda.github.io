@@ -1,0 +1,235 @@
+<!DOCTYPE>
+<html lang="pt">
+<head>
+  
+  <title>Tec DEV</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> 
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #CFCFCF; /* Cyan1 white */
+      color: #fff;
+  }
+  .bg-2 {
+      background-color: #B5B5B5; /* Cyan2 white */
+      color: #fff;
+  }
+  .bg-3 {
+      background-color: #828282; /* Cyan3 white */
+      color: #fff;
+  }
+  .bg-4 {
+      background-color: #008B8B; /* Cyan4 white */
+      color: #fff;
+  }
+  .bg-5 {
+      background-color: #ffffff; /* white black */
+      color: #BEBEBE;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  #videos {padding-top: 20px;}
+  .row-videos iframe {
+    width: 100%;
+  }
+  .button-padding {padding-top: 10px;}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="col-sm-12 navbar navbar-default navbar-fixed-top" style="display: block;"">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" data-toggle="modal" data-target="#sobre">Sobre</a>
+    <div id="sobre" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body" style="color: #BEBEBE">
+        <p>TEST.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>  
+  </div>
+</nav>
+<!-- First Container -->
+<div id="noticias" class="container-fluid bg-1 text-center">
+  <div class="col-sm-4 text-center">
+    <h3>Campus Party</h3>
+    <h4 style="text-align: justify;">O maior evento de tecnologia e inovação do mundo, comemora seu aniversário de 10 anos em uma edição especial no Brasil. De 31 de janeiro a 5 de fevereiro no Anhembi em SP. Para saber mais continue lendo nossa materia.</h4> 
+    <img src="campus.jpeg" width="150" height="150" class="img-rounded" style="padding-bottom: 15px;">
+    <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Leia Mais</button></p>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body" style="color: #BEBEBE">
+        <p>TEST.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    </div>
+    <div class="col-sm-4 text-center">
+      <h3>Analise GeForce 1080</h3>
+      <h4 style="text-align: justify;">A Nvidia GeForce GTX 1080 é a primeira GPU Pascal da Nvidia focada nos games. Além de outras melhorias, o grande destaque é a redução na litografia e uma com uma arquitetura do transito mais estável.</h4>
+    <img src="gtx-1080.jpg" width="150" height="150" class="img-rounded" style="padding-bottom: 15px;">
+      <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Leia Mais</button></p>
+<!-- Modal -->
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body" style="color: #BEBEBE">
+        <p>TEST.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    </div>
+    <div class="col-sm-4">
+      <h3>SKT avança para final</h3>
+      <h4 style="text-align: justify;">Que ROX Tigers vs SK Telecom T1 seria uma série sensacional, todos já esperavam. No entanto, o que vimos nesta sexta-feira foi um duelo do mais alto nível possível, com jogadas sensacionais.</h4>
+      <img src="skt.jpg" width="150" height="150" class="img-rounded" style="padding-bottom: 15px;">
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Leia Mais</button></p>
+<!-- Modal -->
+<div id="myModal3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body" style="color: #BEBEBE">
+        <p>TEST.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+    </div>
+  <h3 class="margin"></h3>
+
+</div>
+
+<!-- Second Container -->
+<div id="videos" class="container-fluid bg-2 text-center">
+<div row class="row-videos">
+  <h3 class="margin">Videos</h3>
+    <div class="col-sm-4 text-center">
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/s5cj04i-AAg" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm-4 text-center">
+     <iframe width="420" height="315" src="https://www.youtube.com/embed/Dih7CIY1lDc" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm-4 text-center">
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/28GpKacWLWI" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Third Container (Grid) -->
+<div id="contato" class="container-fluid bg-3 text-center">
+  <h3 class="margin">Contato</h3><br>
+    <div class="col-sm-4"></div>
+  <div class="row">
+    <div class="col-sm-4 form-group text-center">
+      <form name="form" method="post" action="file:///Users/Lucas/Documents/Site%20Tecnologia/index.html/cgi-bin/FormMail.cgi">
+      <label for="Nome">Nome</label>
+      <input type="Nome" class="form-control" id="Nome">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email">
+      <label for="comment">Comentario</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+      <input type=hidden name="recipient" value="lucasfonmiranda@gmail.com">
+      <input type=hidden name="subject" value="Contato Site">
+      <input type=hidden name="redirect" value="file:///Users/Lucas/Documents/Site%20Tecnologia/index.html">  
+      <button type="submit" class="btn btn-default" value="Enviar">Enviar</button>
+    
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+  <div>
+  <footer role="contentinfo" class="text-center bg-5">
+    <p> Copyright © 2016 - Lucas Fonseca
+  </footer>
+  </div>
+  </div>
+</div>
+</body>
+</html>
+  
